@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            line-height: 1.6;
         }
 
         header {
@@ -25,9 +26,10 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
         }
 
@@ -35,10 +37,8 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
-        }
-
-        p {
-            line-height: 1.6;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .gallery {
@@ -56,11 +56,24 @@
             padding: 1em 0;
             background-color: #333;
             color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
-		header h1 {
-			margin: 0; /* Remove default margin for h1 */
-			color: #fff;
-		}
+
+        header h1, .contact a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .expert-tip {
+            font-style: italic;
+            color: #777;
+        }
     </style>
 </head>
 <body>
@@ -71,12 +84,14 @@
 
     <section>
         <h2>Product Description</h2>
-        <p> Handwraps are made from elastic cotton and offer an excellent price/quality ratio.</p>
-		<p>	Elastic cotton for comfort and strength. Velcro closure for fast and personalized tightening.</p>
-		<p>Sold in pairs. Dimensions: 4 meters.</p>
-		<p>Ideal for all types of boxing and combat sports.</p>
-		<p>Price per unit: 9.00€ . Discount and the possibility of a customized logo for high quantities.</p>
-        </p>
+        <p>Handwraps are made from elastic cotton, offering an excellent price/quality ratio.</p>
+        <ul>
+            <li>Elastic cotton for comfort and strength.</li>
+            <li>Velcro closure for fast and personalized tightening.</li>
+            <li>Sold in pairs. Dimensions: 4 meters.</li>
+            <li>Ideal for all types of boxing and combat sports.</li>
+            <li>Price per unit: 9.00€. Discount and the possibility of a customized logo for high quantities.</li>
+        </ul>
 
         <div class="gallery">
             <!-- Add your product photos here -->
@@ -85,12 +100,13 @@
             <img src="photo3.png" alt="Product Photo 3">
         </div>
 
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <p>If you are interested in buying this product, please contact us via email.</p>
-            <p>Email: <a href="mailto:my.email@example.com">my.email@example.com</a></p>
-			Expert's tip: Handwraps will not only protect your hands but also reduce the effects of perspiration in your gloves, giving them longer life!
-        </div>
+		<div class="contact">
+			<h2>Contact Information</h2>
+			<p>If you are interested in buying this product, please contact us via email.</p>
+			<p>Email: <a href="mailto:my.email@example.com" style="color: #007bff; text-decoration: underline;">my.email@example.com</a></p>
+			<p class="expert-tip">Expert's tip: Handwraps not only protect your hands but also reduce the effects of perspiration in your gloves, giving them a longer life!</p>
+		</div>
+
     </section>
 
     <footer>
