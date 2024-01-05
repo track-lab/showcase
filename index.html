@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kickboxing Handwraps</title>
-  <style>
-    /* General Styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      padding: 20px;
-      text-align: center;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickboxing Handwraps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-    h1 {
-      color: #333;
-    }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
 
-    p {
-      color: #666;
-      font-size: 16px;
-      /* Adjust the font size as needed */
-    }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    /* Image Styles */
-    img {
-      width: 30%; /* Adjust to your preferred width */
-      height: auto;
-      margin-top: 20px;
-    }
+        h1, h2 {
+            color: #333;
+        }
 
-    /* Details Section Styles */
-    .details {
-      margin-top: 20px;
-      font-size: 18px;
-    }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
 
-    /* Price Styles */
-    .price {
-      color: #4CAF50; /* Green color for price */
-      font-size: 24px;
-      margin-top: 20px;
-    }
+        p {
+            line-height: 1.6;
+        }
 
-    /* Contact Section Styles */
-    .contact {
-      margin-top: 20px;
-      font-size: 18px;
-    }
-  </style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+		header h1 {
+			margin: 0; /* Remove default margin for h1 */
+			color: #fff;
+		}
+    </style>
 </head>
 <body>
-  <!-- Content Section -->
-  <h1>Kickboxing Handwraps</h1>
-  <p>Welcome to the official page for our amazing product. Here, you can find all the information you need.</p>
 
-  <!-- Image Section -->
-  <img src="1.png" alt="Product Image 1">
-  <img src="2.png" alt="Product Image 2">
-  <img src="3.png" alt="Product Image 3">
-  <!-- Add more images as needed -->
+    <header>
+        <h1>Kickboxing Handwraps</h1>
+    </header>
 
-  <!-- Product Description Section -->
-  <p>Handwraps are made from elastic cotton and offer an excellent price/quality ratio.</p>
+    <section>
+        <h2>Product Description</h2>
+        <p> Handwraps are made from elastic cotton and offer an excellent price/quality ratio.</p>
+		<p>	Elastic cotton for comfort and strength. Velcro closure for fast and personalized tightening.</p>
+		<p>Sold in pairs. Dimensions: 4 meters.</p>
+		<p>Ideal for all types of boxing and combat sports.</p>
+		<p>Price per unit: 9.00€ . Discount and the possibility of a customized logo for high quantities.</p>
+        </p>
 
-  <!-- Details Section -->
-  <div class="details">
-    <p>Elastic cotton for comfort and strength. Velcro closure for fast and personalized tightening.</p>
-    <p>Sold in pairs. Dimensions: 180 inches (4m).</p>
-    <p>Ideal for all types of boxing and combat sports.</p>
-  </div>
+        <div class="gallery">
+            <!-- Add your product photos here -->
+            <img src="photo1.png" alt="Product Photo 1">
+            <img src="photo2.png" alt="Product Photo 2">
+            <img src="photo3.png" alt="Product Photo 3">
+        </div>
 
-  <!-- Price Section -->
-  <div class="price">
-    <p>Price: 9.00€</p>
-    <!-- Replace XX.XX with your actual price -->
-  </div>
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p>If you are interested in buying this product, please contact us via email.</p>
+            <p>Email: <a href="mailto:my.email@example.com">my.email@example.com</a></p>
+			Expert's tip: Handwraps will not only protect your hands but also reduce the effects of perspiration in your gloves, giving them longer life!
+        </div>
+    </section>
 
-  <!-- Contact Section -->
-  <div class="contact">
-    <p>If you are interested in purchasing this product, please contact us at:</p>
-    <p><a href="mailto:my.email@example.com">my.email@example.com</a></p>
-    <p>Discount and the possibility of a customized logo for high quantities.</p>
-  </div>
+    <footer>
+        &copy; 2024 Scorpio Fight Gear
+    </footer>
 
-  <!-- Expert's Tip -->
-  <p><br>Expert's tip: Handwraps will not only protect your hands but also reduce the effects of perspiration in your gloves, giving them longer life!</p>
 </body>
 </html>
